@@ -52,7 +52,7 @@
     "clsx": "^2.1.1",
     "date-fns": "^4.4.0",
     "lucide-react": "^1.30.0",
-    "next": "16.2.12",
+    "next": "^16.3.5",
     "next-intl": "^4.13.5",
     "opus-recorder": "^8.0.5",
     "react": "19.2.4",
@@ -87,5 +87,10 @@
     "sharp": "^0.35.3",
     "brace-expansion@^1.0.0": "^1.1.18",
     "brace-expansion@^5.0.0": "^5.0.9"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.6.0": true,
+    "@swc/core@1.16.2": true,
+    "unrs-resolver@1.12.2": true
   }
 }
